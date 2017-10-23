@@ -13,4 +13,4 @@ App Screenshot:
 - - -
 
 Twitter Account Screenshot:
-![twitter](/img/twitter.png)
+![twitter](/img/tweet.png)
