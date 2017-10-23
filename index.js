@@ -8,7 +8,7 @@ const Twit = require('twit');
 const config = require('./config');
 const T = new Twit(config);
 const UNICHARS = 275297;
-const PERHOUR = 6000;
+const PERHOUR = 900000;
 
 
 app.use(express.static(path.join(__dirname)));
@@ -18,7 +18,7 @@ app.set("views", path.join(__dirname, "views"));
 app.use("/static", express.static(path.join(__dirname +"public")));
 
 app.get('/', function(req, res, next){
-  res.sendFile(path.join(__dirname+'/index.html'));
+  res.sendFile(path.join(__dirname+'/views/public/index.html'));
 });
 
 
